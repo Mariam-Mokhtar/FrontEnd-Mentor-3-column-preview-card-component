@@ -1,148 +1,158 @@
+body {
+  text-align: center;
+  font-size: 15px;
+  line-height: 2;
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 10px;
+}
 
-body{
-    text-align: center;
-    font-size: 15px;
-    line-height: 2;
-    background-color: hsl(0, 0%, 95%);
-    margin-top: 10px;
-    }
-
-h1{
+h1 {
   color: hsl(0, 0%, 95%);
-  font-family:Big Shoulders Display;
+  font-family: Big Shoulders Display;
   text-align: left;
 }
-p{
- margin:20px auto;
+p {
+  margin: 20px auto;
   color: hsla(0, 0%, 100%, 0.75);
-  font-family:Lexend Deca;
+  font-family: Lexend Deca;
   text-align: left;
   padding-bottom: 20px;
 }
-img{
-position: relative;
-right: 70px;}
-
- 
-#Sedans{
-    margin-top: 150px;
-    padding:50px 60px;
-    height: 420px;
-    width: 200px;
-    background-color:hsl(31, 77%, 52%);
-    display: inline-block;
-    position: relative;
-    left: 3.8px;
-    border-radius: 10px 0 0 10px;
+img {
+  position: relative;
+  right: 70px;
 }
 
-#suvs{
-    margin-top: 150px;
-    padding:50px 60px;
-    height: 420px;
-    width: 200px;
-    background-color:hsl(184, 100%, 22%);
-    display: inline-block;
-    border-radius: 0 ;
-
+#Sedans {
+  margin-top: 150px;
+  padding: 50px 60px;
+  height: 420px;
+  width: 200px;
+  background-color: hsl(31, 77%, 52%);
+  display: inline-block;
+  position: relative;
+  left: 3.8px;
+  border-radius: 10px 0 0 10px;
 }
 
-#luxury{
-    margin-top: 150px;
-    padding:50px 60px;
-    height: 420px;
-    width: 200px;
-    background-color: hsl(179, 100%, 13%);
-    display: inline-block;
-    position: relative;
-    right: 3.27px;
-    border-radius: 0 10px 10px 0;
+#suvs {
+  margin-top: 150px;
+  padding: 50px 60px;
+  height: 420px;
+  width: 200px;
+  background-color: hsl(184, 100%, 22%);
+  display: inline-block;
+  border-radius: 0;
+}
 
+#luxury {
+  margin-top: 150px;
+  padding: 50px 60px;
+  height: 420px;
+  width: 200px;
+  background-color: hsl(179, 100%, 13%);
+  display: inline-block;
+  position: relative;
+  right: 3.27px;
+  border-radius: 0 10px 10px 0;
 }
 .btn {
-    
-    background: hsl(0, 0%, 95%);
-    background-image: -webkit-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    background-image: -moz-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    background-image: -ms-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    background-image: -o-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    background-image: linear-gradient(to bottom, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: hsl(31, 77%, 52%);
-    font-size: 20px;
-    padding: 10px 30px 10px 30px;
-    text-decoration: none;
-    position: relative;
-    right: 30px;
-  }
-  
-  .btn1 {
-    
-    background: hsl(0, 0%, 95%);
-    background-image: -webkit-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    background-image: -moz-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    background-image: -ms-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    background-image: -o-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    background-image: linear-gradient(to bottom, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: hsl(184, 100%, 22%);
-    font-size: 20px;
-    padding: 10px 30px 10px 30px;
-    text-decoration: none;
-    position: relative;
-    right: 30px;
+  background: hsl(0, 0%, 95%);
+  background-image: -webkit-linear-gradient(
+    top,
+    hsl(0, 0%, 95%),
+    hsl(0, 0%, 95%)
+  );
+  background-image: -moz-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
+  background-image: -ms-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
+  background-image: -o-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
+  background-image: linear-gradient(
+    to bottom,
+    hsl(0, 0%, 95%),
+    hsl(0, 0%, 95%)
+  );
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: hsl(31, 77%, 52%);
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  position: relative;
+  right: 30px;
+}
 
-  }
-  .btn2 {
-    
-    background: hsl(0, 0%, 95%);
-    background-image: -webkit-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    background-image: -moz-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    background-image: -ms-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    background-image: -o-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    background-image: linear-gradient(to bottom, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: hsl(179, 100%, 13%);
-    font-size: 20px;
-    padding: 10px 30px 10px 30px;
-    text-decoration: none;
-    position: relative;
-    right: 30px;
-
-  }
-  @media only screen and (max-width: 375px) {
-     
-#Sedans{
-  margin-top: 0;
+.btn1 {
+  background: hsl(0, 0%, 95%);
+  background-image: -webkit-linear-gradient(
+    top,
+    hsl(0, 0%, 95%),
+    hsl(0, 0%, 95%)
+  );
+  background-image: -moz-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
+  background-image: -ms-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
+  background-image: -o-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
+  background-image: linear-gradient(
+    to bottom,
+    hsl(0, 0%, 95%),
+    hsl(0, 0%, 95%)
+  );
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: hsl(184, 100%, 22%);
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  position: relative;
+  right: 30px;
+}
+.btn2 {
+  background: hsl(0, 0%, 95%);
+  background-image: -webkit-linear-gradient(
+    top,
+    hsl(0, 0%, 95%),
+    hsl(0, 0%, 95%)
+  );
+  background-image: -moz-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
+  background-image: -ms-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
+  background-image: -o-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
+  background-image: linear-gradient(
+    to bottom,
+    hsl(0, 0%, 95%),
+    hsl(0, 0%, 95%)
+  );
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: hsl(179, 100%, 13%);
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  position: relative;
+  right: 30px;
+}
+@media only screen and (max-width: 375px) {
+  #Sedans {
+    margin-top: 0;
     top: 14.5px;
     right: auto;
     left: auto;
     border-radius: 10px 10px 0 0;
-}
-#suvs{
-  margin-top: 0;
-
+  }
+  #suvs {
+    margin-top: 0;
     right: auto;
     left: auto;
-
-}
-#luxury{
-  margin-top: 0;
-
+  }
+  #luxury {
+    margin-top: 0;
     bottom: 14.9px;
     right: auto;
     left: auto;
     border-radius: 0 0 10px 10px;
-
-}
-
   }
+}
