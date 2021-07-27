@@ -53,16 +53,12 @@ img {
   background-color: hsl(179, 100%, 13%);
   display: inline-block;
   position: relative;
-  right: 3.27px;
+  right: 3.3px;
   border-radius: 0 10px 10px 0;
 }
 .btn {
   background: hsl(0, 0%, 95%);
-  background-image: -webkit-linear-gradient(
-    top,
-    hsl(0, 0%, 95%),
-    hsl(0, 0%, 95%)
-  );
+  background-image: -webkit-linear-gradient(  top,hsl(0, 0%, 95%),hsl(0, 0%, 95%)  );
   background-image: -moz-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
   background-image: -ms-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
   background-image: -o-linear-gradient(top, hsl(0, 0%, 95%), hsl(0, 0%, 95%));
