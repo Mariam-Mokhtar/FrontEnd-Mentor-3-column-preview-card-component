@@ -130,12 +130,12 @@ img {
   position: relative;
   right: 30px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 863px) {
   .main{
   
     flex-direction: column;
   } 
-  
+
   #Sedans {
     margin-top: 0;
     top: 14.5px;
