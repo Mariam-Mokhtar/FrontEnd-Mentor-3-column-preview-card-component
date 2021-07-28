@@ -14,7 +14,7 @@ h1 {
 
 p {
   min-height: 180px;
-  max-height: 200px;
+  max-height: 170px;
   min-width: 180px;
   max-width: 200px;
   margin: 20px auto;
@@ -125,9 +125,10 @@ img {
   } 
 
   #Sedans {
-    border-radius: 10px 10px 0 0;
-    margin-top:50px;
+    margin-top:150px;
     margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
+
   }
 
   #suvs {
@@ -137,8 +138,9 @@ img {
   }
 
   #luxury {
-    border-radius: 0 0 10px 10px;
     margin-top: 0;
     margin-bottom: 50px;
+    border-radius: 0 0 10px 10px;
+
   }
 }
