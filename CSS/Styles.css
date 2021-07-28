@@ -23,15 +23,17 @@ img {
   right: 70px;
 }
 
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
 #Sedans {
   margin-top: 150px;
   padding: 50px 60px;
   height: 420px;
   width: 200px;
   background-color: hsl(31, 77%, 52%);
-  display: inline-block;
-  position: relative;
-  left: 3.8px;
   border-radius: 10px 0 0 10px;
 }
 
@@ -41,7 +43,6 @@ img {
   height: 420px;
   width: 200px;
   background-color: hsl(184, 100%, 22%);
-  display: inline-block;
   border-radius: 0;
 }
 
@@ -51,11 +52,9 @@ img {
   height: 420px;
   width: 200px;
   background-color: hsl(179, 100%, 13%);
-  display: inline-block;
-  position: relative;
-  right: 3.3px;
   border-radius: 0 10px 10px 0;
 }
+
 .btn {
   background: hsl(0, 0%, 95%);
   background-image: -webkit-linear-gradient(  top,hsl(0, 0%, 95%),hsl(0, 0%, 95%)  );
@@ -132,6 +131,11 @@ img {
   right: 30px;
 }
 @media only screen and (max-width: 375px) {
+  .main{
+  
+    flex-direction: column;
+  } 
+  
   #Sedans {
     margin-top: 0;
     top: 14.5px;
